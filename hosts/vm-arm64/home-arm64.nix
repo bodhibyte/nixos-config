@@ -26,7 +26,7 @@
     ./../../modules/home/obsidian.nix
     ./../../modules/home/p10k/p10k.nix
     # ./../../modules/home/packages   # Contains x86-only packages
-    ./../../modules/home/packages/cli.nix
+    ./cli-arm64.nix
     ./../../modules/home/packages/dev.nix
     ./../../modules/home/packages/nix.nix
     ./gui-arm64.nix
