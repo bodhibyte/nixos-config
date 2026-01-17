@@ -15,6 +15,8 @@
       imports =
         if (host == "desktop") then
           [ ./../home/default.desktop.nix ]
+        else if (host == "vm-arm64") then
+          [ ./../../hosts/vm-arm64/home-arm64.nix ]
         else
           [ ./../home ];
       home.username = "${username}";
