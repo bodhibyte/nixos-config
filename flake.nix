@@ -68,6 +68,14 @@
             inherit self inputs username;
           };
         };
+        vm-arm64 = nixpkgs.lib.nixosSystem {
+          system = "aarch64-linux";
+          modules = [ ./hosts/vm-arm64 ];
+          specialArgs = {
+            host = "vm-arm64";
+            inherit self inputs username;
+          };
+        };
       };
     };
 }
