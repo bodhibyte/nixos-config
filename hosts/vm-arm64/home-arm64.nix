@@ -6,7 +6,8 @@
     ./../../modules/home/aseprite/aseprite.nix
     ./../../modules/home/audacious/audacious.nix
     ./../../modules/home/bat.nix
-    ./../../modules/home/browser.nix
+    # ./../../modules/home/browser.nix  # Zen Browser (too heavy/large)
+    ./browser-arm64.nix
     ./../../modules/home/btop.nix
     ./../../modules/home/cava.nix
     ./../../modules/home/discord.nix
