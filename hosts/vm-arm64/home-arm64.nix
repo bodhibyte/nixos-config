@@ -25,7 +25,11 @@
     ./../../modules/home/nvim.nix
     ./../../modules/home/obsidian.nix
     ./../../modules/home/p10k/p10k.nix
-    ./../../modules/home/packages
+    # ./../../modules/home/packages   # Contains x86-only packages
+    ./../../modules/home/packages/cli.nix
+    ./../../modules/home/packages/dev.nix
+    ./../../modules/home/packages/nix.nix
+    ./gui-arm64.nix
     ./../../modules/home/pomo/pomo.nix
     # ./../../modules/home/retroarch.nix       # x86-only
     ./../../modules/home/rofi/rofi.nix
